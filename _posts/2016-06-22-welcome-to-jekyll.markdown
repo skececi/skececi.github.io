@@ -8,7 +8,7 @@ About Me:
 
 Having graduated from [The Pingry School][pingry] on June 12, 2016, I now prepare to attend [Columbia University][columbia] in the fall. 
 
-I was accepted into the Fu Foundation School of Engineering and Applied Science (SEAS), and plan to pursue a degree in Operations Research and Financial Engineering, which is essentially just a way of using computer science and math to design efficient systems. [You can read more about the ORFE department here][ORFE].
+I was accepted into the Fu Foundation School of Engineering and Applied Science (SEAS) and plan to pursue a degree in Operations Research and Financial Engineering, which is essentially just a way of using computer science and math to design efficient systems. [You can read more about the ORFE department here][ORFE].
 
 Aside from academics, I have been a passionate soccer player, referee, and fan throughout my life. I've been lucky enough to travel around the world playing in incredible locations such as Italy and Portugal. 
 
