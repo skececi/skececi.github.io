@@ -5,33 +5,46 @@ date:   2016-06-22 12:44:01 -0400
 categories: jekyll update
 ---
 SAMUEL L. KECECI
+
 17 Franklin Road Mendham, NJ 07945 (908) 410-1220
+
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
 EDUCATION
 The Pingry School, Basking Ridge, NJ 07920
+
 Graduated with Cum Laude Honors on June 6, 2016 Attending Columbia University in September 2016
+
 Plan to study Financial Engineering and Operations Research
+
 
 LEADERSHIP
 Pingry Credit Union: Co-Founder and Head of Investments
 Educated students on all aspects of operation. Invest money in taxable municipal debts, CDs AAA, low risk securities. Successfully obtained NCUA charter for operation in January 2016.
+
 Vital Signs (Analytical Magazine): Associate Editor
-Oversee all aspects of production, from editing articles to final publication
+Oversee all aspects of production, from editing articles to final publication.
+
 PolyGlot (Foreign Language Journal): Head editor for French chapter Guide all French students in submissions, layout, content, graphics, and printing
+
 
 EMPLOYMENT/INTERNSHIPS
 FORCE Cancer Research: (summer of 2014)
 Designed PowerPoint presentations on overview of BRCA-related Pancreatic cancer for use in fundraising. 
 Published white paper on BRCA cancer diagnosis. Work in lab and shadowing oncologists.
+
 Appraisal Systems, Inc: (summer of 2015)
 Measured and surveyed houses for property tax re-evaluation, filmed and edited footage using drone for company training video and PowerPoint. Established software (SFREP) for employees to use for field surveying.
+
 West Morris Soccer Club: (since 2013)
 Referee for travel soccer games of all ages and levels throughout the state.
 
+
 COMMUNITY SERVICE
-West Morris Soccer Club Outreach:
-Coach soccer sessions for underprivileged kids from around the area. Created a Halloween Tournament for kids to “trick or treat” and stay safe on Halloween.
+
 Special Olympics:
 Assist in athletic events ensure safety and health of competitors. First Aid and CPR certified.
+
 Morristown Community Soup Kitchen:
 Help determine meal plans for upcoming weeks, organize food to be handed out to those in need
