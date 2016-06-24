@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My Resume"
+title:  "Resumé"
 date:   2016-06-22 12:44:01 -0400
 categories: jekyll update
 ---
