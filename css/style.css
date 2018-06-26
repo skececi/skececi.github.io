@@ -286,8 +286,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	margin-left: 0.1em;
 	font-size: .8em;
 }
-/* Portfolio Section */
-#portfolio {
+/* projects Section */
+#projects {
 	padding: 100px 0;
 	background: #f6f6f6;
 }
@@ -348,7 +348,7 @@ ol.type li a:hover {
 	-moz-transition-property: -moz-transform, opacity;
 	transition-property: transform, opacity;
 }
-.portfolio-item {
+.projects-item {
 	margin: 15px 0;
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
@@ -356,14 +356,14 @@ ol.type li a:hover {
 	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
 }
-.portfolio-item:hover {
+.projects-item:hover {
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	-o-transform: scale(1.1);
 	transform: scale(1.1);
 }
-.portfolio-item .hover-bg {
+.projects-item .hover-bg {
 	height: 260px;
 	overflow: hidden;
 	position: relative;
@@ -409,7 +409,7 @@ ol.type li a:hover {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-#portfolio i.fa {
+#projects i.fa {
 	font-size: 20px;
 	padding: 5px;
 	color: #E87E04;
@@ -619,4 +619,39 @@ header .intro-text {
 	float: left;
 	margin-bottom: 20px;
 }
+}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
 }
