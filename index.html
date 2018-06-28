@@ -93,7 +93,49 @@
     </div>
   </div>
 </div>
+
+<div id="projects">
+  <div class="container">
+    <div class="section-title center">
+      <h2>My Projects</h2>
+      <hr>
+      <!-- Tab links -->
+      <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'London')">London</button>
+        <button class="tablinks" onclick="openTab(event, 'Paris')">Paris</button>
+        <button class="tablinks" onclick="openTab(event, 'Tokyo')">Tokyo</button>
+      </div>
+
+      <!-- Tab content -->
+      <div id="InfoJams" class="tabcontent">
+        <h3>InfoJams</h3>
+        <p> Transmits information through SMS in the absence of cellular data; converts user input into Google Searches </p>
+        <p> Returns website results, news, directions, weather, and more (Ruby on Rails and Twilio API) </p>
+        <p><a href="https://github.com/skececi/InfoJaams">Github Link </a> </p>
+      </div>
+
+      <div id="WebServer" class="tabcontent">
+        <h3>C Web Server</h3>
+        <p> Designed and coded a web server from scratch in C; implements HTTP 1.0 and sockets API. </p>
+        <p> Processes GET requests for static content and returns dynamic database records. </p>
+      </div>
+
+      <div id="Ignite" class="tabcontent">
+        <h3>Ignite</h3>
+        <p> Website and chrome extension for social impact; customizable feed of location-based volunteer opportunities </p>
+        <p> (Python/Flask, Webhose.io, Whitehouse API, and Eventbrite API) </p>
+        <p><a href="https://github.com/skececi/IgniteB">Github Link </a> </p>
+      </div>
+
+      <div id="Bot26" class="tabcontent">
+        <h3>Bot26</h3>
+        <p> Website and Salesforce Einstein bot that connects users with non-profit opportunities that fit their busy scehdule. </p>
+        <p> Uses Salesforce Einstein chat bot to process natural language and match with work shifts at charities close to the user. </p>
+        <p> Website frontend created with Javascript/React; backend created with SQL </p>
+
+      </div>
 <!-- Projects Section -->
+<!-- template for projects
 <div id="projects">
   <div class="container">
     <div class="section-title text-center center">
@@ -160,54 +202,15 @@
     </div>
   </div>
 </div>
-<!-- Achievements Section -->
-<div id="achievements" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Some Stats</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="200ms">
-        <div class="achievement-box"> <span class="count">310</span>
-          <h4>Happy Clients</h4>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="400ms">
-        <div class="achievement-box"> <span class="count">4700</span>
-          <h4>Hours of Work</h4>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="600ms">
-        <div class="achievement-box"> <span class="count">30</span>
-          <h4>Awards Won</h4>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="800ms">
-        <div class="achievement-box"> <span class="count">8</span>
-          <h4>Years of Experience</h4>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+-->
 <!-- Resume Section -->
 <div id="Resume" class="text-center">
   <div class="container">
     <div class="section-title center">
       <h2>Resume</h2>
       <hr>
-      <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=skececi.github.io/files/resume.pdf" target="_blank" width="500" height="375">
+      <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=skececi.github.io/files/resume.pdf" target="_blank" width="900" height="750">
       <hr>
-      <a href="files/resume.pdf" target="_blank">Click here to view a PDF of my Resume.</a>
-      <a href="files/resume.pdf">
-        <img src="files/resume_icon_cropped.png" alt="Resume" style="width:42px;height:42px;border:0">
-      </a>
-    </div>
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <h1> Resume </h1>
-      </div>
     </div>
   </div>
 </div>
@@ -244,8 +247,8 @@
         </form>
         <div class="social">
           <ul>
-            <li><a href="github.com/skececi"><i class="fa fa-github"></i></a></li>
-            <li><a href="www.linkedin.com/in/samkececi"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/skececi"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/samkececi"><i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
       </div>

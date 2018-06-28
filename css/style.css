@@ -627,7 +627,7 @@ header .intro-text {
     background-color: #f1f1f1;
 }
 
-/* Style the buttons that are used to open the tab content */
+/* Style the buttons inside the tab */
 .tab button {
     background-color: inherit;
     float: left;
@@ -636,6 +636,7 @@ header .intro-text {
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
+    font-size: 17px;
 }
 
 /* Change background color of buttons on hover */
@@ -652,6 +653,17 @@ header .intro-text {
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
