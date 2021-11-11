@@ -4,7 +4,35 @@
 
 
 <html>
-  <a href="https://www.larvalabs.com/cryptopunks/details/7804">
-    <img src="cryptopunk.jpg" width="75%" /> 
-  </a>
+
+<body onload="scrollText();">
+<p id="text"></p>
+<p id="options"></p>
+
+
+<script>
+  const TEXT = 'Welcome. How are you?';
+  const SPEED = 100;
+  let i = 0;
+  const mehLink = "https://philome.la/jace_harr/you-feel-like-shit-an-interactive-self-care-guide/play/index.html";
+  const goodLink = "./blog_index.html";
+
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  async function scrollText() {
+    if (i < TEXT.length) {
+      document.getElementById("text").innerHTML += TEXT.charAt(i);
+      i++;
+      setTimeout(scrollText, SPEED);
+    } else {
+      await sleep(500);
+      document.getElementById("options").innerHTML += `<a href=${mehLink}>Meh</a> &nbsp; &nbsp; &nbsp; &nbsp; `;
+      await sleep(500);
+      document.getElementById("options").innerHTML += `<a href=${goodLink}>I'm good</a>`;
+    }
+  }
+</script>
+</body>
 </html>
